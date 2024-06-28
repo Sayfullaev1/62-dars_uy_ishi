@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;  /* Ширина вертикальной полосы прокрутки */
+  height: 100vh; /* Высота горизонтальной полосы прокрутки */
+  /* background: #f1f1f1; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d5d5d5;  /* Цвет ползунка при наведении */
+  border-radius: 4px;
+}

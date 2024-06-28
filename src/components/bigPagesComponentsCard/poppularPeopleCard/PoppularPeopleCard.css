@@ -1,0 +1,43 @@
+.PoppularPeopleCard{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+.PoppularPeopleCard_card{
+    width: calc((100vw - 80px - 60px) / 4);
+    max-width: calc((1400px - 80px - 60px) / 4);
+    margin-top: 30px;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border: 0.8px solid rgb(227, 227, 227);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+}
+
+
+.PoppularPeopleCard_card_img{
+    height: calc((100vw - 80px - 60px) / 4);
+    max-height: calc((1400px - 80px - 60px) / 4);
+    overflow: hidden;
+}
+.PoppularPeopleCard_card_img>img{
+    width: 100%;
+}
+
+.PoppularPeopleCard_card_info{
+    padding: 8px 10px;
+}
+.PoppularPeopleCard_card_info>h1{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.PoppularPeopleCard_card_info>p{
+    font-size: .9em;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .6);
+}

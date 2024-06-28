@@ -1,0 +1,33 @@
+.Movies{
+    width: 100%;
+    padding: 30px 7%;
+}
+
+
+.Movies_info{
+    margin-bottom: 20px;
+}
+
+.Movies_info_text{
+    font-size: 25.6px;
+    font-weight: 600;
+}
+
+
+.Movies_content{
+    display: flex;
+}
+
+.Movies_content_functionalWrapper{
+    min-width: 260px;
+    height: 1500px;
+    background-color: red;
+}
+
+
+.Movies_content_cardWrapper{
+    padding-left: 30px;
+}
+
+
+

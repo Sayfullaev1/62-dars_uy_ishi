@@ -1,0 +1,58 @@
+.PercentageIndicator{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #081c22;
+    padding: calc(100% / 18);
+}
+
+.PercentageIndicator_wrap{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* background: yellow ; */
+}
+
+.PercentageIndicator_wrap_border{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* background: conic-gradient(
+        rgb(255, 0, 0) 0% 40%, 
+        transparent 40% 100%
+    ); */
+    position: relative;
+    padding: calc(100% / 15);
+}
+
+.PercentageIndicator_wrap_border_div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #081c22;
+    color: rgb(239, 239, 239);
+}
+
+.PercentageIndicator_wrap_border_div_span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.PercentageIndicator_wrap_border_div_span>h1{
+    font-size: 1em ;
+    font-weight: 600;
+}
+.PercentageIndicator_wrap_border_div_span>p{
+    font-size: 0.4em ;
+    font-weight: 400;
+}
+
+
+
+
+
+
+

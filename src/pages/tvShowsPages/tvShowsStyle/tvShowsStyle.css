@@ -1,0 +1,32 @@
+.TvShows{
+    width: 100%;
+    padding: 30px 7%;
+}
+
+
+.TvShows_info{
+    margin-bottom: 20px;
+}
+
+.TvShows_info_text{
+    font-size: 25.6px;
+    font-weight: 600;
+}
+
+
+.TvShows_content{
+    display: flex;
+}
+
+.TvShows_content_functionalWrapper{
+    min-width: 260px;
+    height: 1500px;
+    background-color: red;
+}
+
+
+.TvShows_content_cardWrapper{
+    padding-left: 30px;
+}
+
+

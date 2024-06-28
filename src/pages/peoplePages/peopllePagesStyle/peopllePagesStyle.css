@@ -1,0 +1,22 @@
+.PeoplePopularPeople{
+    width: 100%;
+    padding: 30px 7%;
+}
+
+
+.PeoplePopularPeople_info{
+    margin-bottom: 20px;
+}
+
+.PeoplePopularPeople_info_text{
+    font-size: 25.6px;
+    font-weight: 600;
+}
+
+
+
+.PeoplePopularPeople_content_cardWrapper{
+    width: 100%;
+}
+
+
