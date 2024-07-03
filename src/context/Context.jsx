@@ -9,7 +9,7 @@ export const GlobalContext = createContext()
 
 export default function Context({children}) {
 
-    const [ lang , setLang ] = useState("en")
+    const [ lang , setLang ] = useState("en-Us")
 
     const [ navigateItemForCard , setNavigateItemForCard ] = useState([])
 

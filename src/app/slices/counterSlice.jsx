@@ -21,16 +21,6 @@ export const counterSlice = createSlice({
           getItemIndex=inex
         }
       })
-      // console.log(state.value);
-      console.log(payload.payload);
-      console.log(getItemIndex);
-      state.value.splice( getItemIndex, 1 )
-
-      // console.log(state.value);
-      // ({
-
-      //   id: payload.payload
-      // })
     }
     
   },

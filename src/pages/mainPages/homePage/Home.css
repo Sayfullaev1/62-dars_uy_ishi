@@ -1,113 +1,232 @@
 .Home{
-    height: 1000px;
+  width: 100%;
+  padding: 0 7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.home_main{
+  width: 100%;
+}
+
+ 
+.home_main_trendingMovies{
+  width: 100%;
+  padding-top: 30px;
+}
+
+.home_main_CardWrapper{
+  width: 100%;
+  padding: 20px 40px;
+  overflow-x: auto;
+  background-image: url(../../../photos/homePageBackgraundCollorIMG/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 30px;
+  position: relative;
+}
+
+.home_main_CardWrapper_visualEffect{
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 13;
+  /* transition: linear .3s;
+  opacity: 1;
+
+  &::marker{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #fff 100%);
+    will-change: opacity ;
+    pointer-events: none;
+
+  } */
+}
+
+
+
+.toggle-container {
+  display: flex;
+  border: 1px solid #003366;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 250px;
+  height: 40px;
+}
+
+.toggle-btn {
+  flex: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: #003366;
+  font-size: 1em;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.toggle-btn.active {
+  background-color: #003366;
+  border-radius: 25px;
+  color: #00cc99;
+}
+
+.toggle-btn:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.toggle-btn:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 
 .sectOne {
-    width: 1300px;
-    margin: 0 auto;
-    /* height: 50vh; */
-    background-image: linear-gradient(
-      to bottom right,
-      #221d93 0%,
-      #4958ab 30%,
-      #91ced8 100%
-    );
-  }
-  
-  .sectOne .texts {
-    padding: 30px 40px;
-    color: white;
-  }
-  .sectOne .texts h2 {
-    font-size: 48px;
-  }
-  .sectOne .texts h3 {
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 40px;
-  }
-  .sectOne .texts .search {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: white;
-    border-radius: 30px;
-    overflow: hidden;
-    padding: 0 0 0 20px;
-  }
-  .sectOne .texts .search input {
-    height: 46px;
-    border: none;
-    font-size: 1.1em;
-    width: calc(100% - 91px);
-    outline: none;
-    color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .sectOne .texts .search button {
-    height: 46px;
-    padding: 10px 26px;
-    border: 0;
-    background-image: linear-gradient(
-      to right,
-      rgba(30, 213, 169, 1) 0%,
-      rgba(1, 180, 228, 1) 100%
-    );
-    border-radius: 30px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  .sectOne .oscars {
-    padding: 30px 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .sectOne .oscars img {
-    width: 300px;
-  }
-  .sectOne .oscars button {
-    width: 260.3px;
-    color: #fff;
-    padding: 8px 16px;
-    border: 2px solid #fff;
-    background: none;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 30px;
-  }
-  .trendingMovies {
-    width: 1250px;
-    margin: 0 auto;
-  }
-  .trendingMoviesToggle {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 30px 0;
-  }
-  .homeCardWrapper {
-    display: flex;
-    gap: 10px;
-    overflow-x: scroll;
-    }
-    .homeCardWrapper::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  .homeCardWrapper .card {
-    min-width: 150px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: rgba(141, 140, 140, 0.782);
-    border-radius: 20px;
-  }
-  ::-webkit-scrollbar {
-    height: 8px;
-    width: 8px;
-  }
-  
+  width: 100%;
+  margin: 0 auto;
+  /* height: 50vh; */
+  background-image: linear-gradient(
+    to bottom right,
+    #221d93 0%,
+    #4958ab 30%,
+    #91ced8 100%
+  );
+}
+
+.sectOne .texts {
+  padding: 30px 40px;
+  color: white;
+}
+.sectOne .texts h2 {
+  font-size: 48px;
+}
+.sectOne .texts h3 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.sectOne .texts .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 0 0 0 20px;
+}
+.sectOne .texts .search input {
+  height: 46px;
+  border: none;
+  font-size: 1.1em;
+  width: calc(100% - 91px);
+  outline: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.sectOne .texts .search button {
+  height: 46px;
+  padding: 10px 26px;
+  border: 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(30, 213, 169, 1) 0%,
+    rgba(1, 180, 228, 1) 100%
+  );
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sectOne .oscars {
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sectOne .oscars img {
+  width: 300px;
+}
+.sectOne .oscars button {
+  width: 260.3px;
+  color: #fff;
+  padding: 8px 16px;
+  border: 2px solid #fff;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.trendingMovies {
+  width: 1250px;
+  margin: 0 auto;
+}
+.trendingMoviesToggle {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.homeCardWrapper {
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+}
+.homeCardWrapper::-webkit-scrollbar {
+  width: 10px;
+}
+
+.homeCardWrapper .card {
+  min-width: 150px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(141, 140, 140, 0.782);
+  border-radius: 20px;
+}
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.leaderboard {
+  width: 1250px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.leaderboardWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+
+.left .leftProgress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.leftProgress .leaderboardProgress{
+  width: 100%;
+}
+
+
+.leaderboard .leaderboardText {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+
+  margin-bottom: 20px;
+}

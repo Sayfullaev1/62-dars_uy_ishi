@@ -1,0 +1,83 @@
+.TrendingMoviesCard{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.TrendingMoviesCard_card{
+    min-width: 150px;
+    height: auto;
+}
+
+
+
+.TrendingMoviesCard_card_imgWrapper{
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, .1);  */
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    height: auto;
+}
+
+
+.TrendingMoviesCard_card_imgWrapper_link{
+    width: 100%;
+    
+}
+
+.TrendingMoviesCard_card_imgWrapper_link>img{
+    width: 100%;
+    
+}
+
+
+
+.TrendingMoviesCard_card_infoWrapper_ratingWrapper{
+    width: 100%;
+    position: relative;
+}
+
+.TrendingMoviesCard_card_infoWrapper_ratingWrapper_counterIndicator{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: -25px;
+    left: 8px;
+    z-index: 1;
+}
+
+
+.TrendingMoviesCard_card_infoWrapper_info{
+    padding: 26px 10px 8px 10px;
+
+}
+.TrendingMoviesCard_card_infoWrapper_info_link{
+    font-size: 19.2px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+
+    &:hover{
+        color: rgba(1,180,228,1);
+    }
+}
+.TrendingMoviesCard_card_infoWrapper_info_data{
+    color: rgba(0, 0, 0, .6);
+    font-size: 16px;
+    
+}
+
+
+.TrendingMoviesCard_wrap_cardWrapper_card_info_details{
+    margin-top: 20px;
+}
+
+.TrendingMoviesCard_wrap_cardWrapper_card_info_details_p{
+
+}
+
+
+
+
+
+

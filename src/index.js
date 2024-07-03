@@ -38,6 +38,7 @@ import PeoplePopularPeople from './pages/peoplePages/peoplePopularPeople/PeopleP
 
 
 import WatchlistPage from './pages/favouritePage/WatchlistPage';
+import SearchPage from './pages/searchPage/SearchPage';
 
 
 
@@ -85,6 +86,11 @@ root.render(
 
 
             <Route path='/:type/:id' element={<MoviesAndZTvShoShowsNavigate/>}/>
+
+
+
+            <Route path='/search' element={<SearchPage />}/>
+
 
 
             <Route path='/watchlist' element={<WatchlistPage/>}/>
